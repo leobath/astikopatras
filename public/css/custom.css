@@ -1,0 +1,296 @@
+main {
+	margin-top: 20px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 20px;
+}
+
+body {
+	font-weight: 700 !important;
+	background-color: #fafafa;
+	border-radius: 0px;
+	margin: auto;
+	padding: auto;
+	overflow: scroll;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: auto;
+	font-size: 16px !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
+    font-weight: 700 !important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;  
+}
+
+.row-no-padding {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+	padding-bottom: 0 !important;
+
+  
+}
+
+footer {
+	background-color: #6c757d;
+	color: #f1f1f1;
+	margin-top: -18px;
+}
+
+#footer-paragraph {
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+}
+
+
+
+#welcome-paragraph {
+    margin-top: 10px;
+	max-width: 800px;
+	font-weight: 600;
+	text-align: left;
+	text-shadow: 0 0 5px #000;
+	color: #f1f1f1;
+}
+
+#welcome-title {
+	color: #f1f1f1;
+	font-weight: 600;
+	text-shadow: 0 0 5px #000;
+	text-align: left;
+	margin-top: -20px;
+}
+
+#navbar-custom-values {
+	background-color: #f1f1f1;
+	font-style: normal;
+}
+/*
+iframe {
+	margin-top: 15px; 
+	background-size: cover;
+}*/
+
+.row-max-height {
+	max-height: 500px;
+}
+
+.map-container {
+	width: auto;
+	height: auto;
+}
+
+.map-container iframe{
+	width: auto;
+	height: auto;
+	display: block;
+	pointer-events: none;
+	position: relative; 
+}
+
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+
+#bus-background {
+    background: 
+    linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("/images/ktel.jpg") no-repeat center right;
+	background-size: cover;
+	/* min-height: 650px; */
+}
+
+#title-container {
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    max-width: 800px;
+    margin-left: 0em;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+#carous-container {
+	margin-top: 10px;
+}
+
+.anouncements-margin {
+	margin-top: -30px;
+}
+
+
+
+.jumbo-set-margin {
+
+	margin-top: -30px;
+	
+	
+}
+
+.padding-20 {
+	padding: 20px;
+}
+
+
+
+.opacity-title {
+	opacity: 0.9;
+}
+
+.opacity-title:hover {
+	opacity: 0.8;
+}
+
+.opacity-no-hover {
+	opacity: 0.8;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.btn, .jumbotron, .button-radius {
+	border-radius: 0px;
+}
+
+.border-radius-0 {
+	border-radius: 0px;
+}
+
+
+.rotate-icon {
+	transform: rotate(90deg);
+}
+
+.carousel {
+	max-width: 1024px;
+}
+
+.min-width-height {
+	min-height: auto;
+	min-height: 50px;
+	min-width: 280px;
+	max-width: 280px;
+}
+
+.index-button-cards {
+	min-height: 320px;
+	max-height: 500px;
+}
+
+.button-whitespace {
+	white-space: normal;
+}
+
+#margin-fix-routes {
+	margin-left: 50px;
+}
+
+.padding-20 {
+	padding: -50px;
+}
+
+.margin-bottom-18 {
+	margin-bottom: 0px ;
+}
+
+.row-set-margin {
+	margin-top: -32px;
+}
+
+.margin-padding-10 {
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.margin-padding-0 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.margin-form-fix {
+	margin-top: -25px;
+}
+
+.single-label:focus {
+	box-shadow: none;
+}
+
+.map-background {
+	background-image: url("/svgs/solid/map-marked-alt.svg") ;
+	background-size: 72%;
+	background-repeat: no-repeat;
+	opacity: 0.1;
+	background-position: center;
+}
+
+.calendar-alt-background {
+	background-image: url("/svgs/solid/calendar-alt.svg") ;
+	background-size: 54%;
+	background-repeat: no-repeat;
+	opacity: 0.1;
+	background-position: center;
+}
+
+.footer-margin {
+	margin-top: -32px;
+}
+
+p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .p {
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    color: rgba(250,250,250, 1);
+
+}
+
+/*.col-md-4, .col-md-8 {
+	border: none;
+}*/
+
+/*blinking badgie*/
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: steps(2, step-start, step-end);
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: steps(2, step-start, step-end);
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: steps(2, step-start, step-end);
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 0.0; }
+    /*50% { opacity: 1.0; }*/
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 0.0; }
+    /*50% { opacity: 1.0; }*/
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 0.0; }
+    /*50% { opacity: 1.0; }*/
+    100% { opacity: 1.0; }
+}
