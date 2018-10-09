@@ -27,6 +27,7 @@
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
+Route::get('/announcements', 'PagesController@announcements');
 Route::get('/bus-routes', 'PagesController@busRoutes');
 Route::get('/map-complete', 'PagesController@mapComplete');
 Route::get('/bus-routes/romatza-eglikada', 'PagesController@romatzaEglikada');

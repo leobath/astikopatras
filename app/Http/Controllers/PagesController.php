@@ -21,6 +21,11 @@ class PagesController extends Controller
         return view('pages.contact');
     }
 
+    public function announcements(){
+        $title = 'ΑΝΑΚΟΙΝΩΣΕΙΣ';
+        return view('pages.announcements');
+    }
+
     public function busRoutes(){
         $title = 'Όλα τα δρομολόγια';
         return view('pages.bus-routes');
@@ -40,4 +45,5 @@ class PagesController extends Controller
         $title = 'ΤΑΡΑΜΠΟΥΡΑ - ΝΕΟΣ ΔΡΟΜΟΣ';
         return view('pages.busroutes.taraboura-neosdromos');
     }
+   
 }

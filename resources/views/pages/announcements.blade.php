@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>taraboura-neosdromos</h1>
+    <h1>Announcements</h1>
 @endsection

@@ -35,7 +35,7 @@
                     <p><a href="#">(7/9/2018) Το ΑΣΤΙΚΟ ΚΤΕΛ ΠΑΤΡΩΝ Α.Ε. ανακοινώνει την έναρξη χειμερινών δρομολογίων 2018-2019 την Τρίτη 11 Σεπτεμβρίου 2018.&nbsp;</a><span class="badge badge-danger">NEO</span></p>
                     <p><a href="#">&#9656; Μια νέα σημαντική καινοτομική εφαρμογή του Πληροφοριακού Συστήματος Χρηστών Αστικών Συγκοινωνιών που αναπτύσσεται στην Πάτρα από την ΑΔΕΠ σε συνεργασία με το Αστικό ΚΤΕΛ Πάτρας στο πλαίσιο του έργου SUMMIT - Sustainable Urban Mobility Management Information Technologies, η οποία δίνει τη δυνατότητα αναζήτησης πληροφοριών σε πραγματικό χρόνο για τις διαδρομές και τη λειτουργία των αστικών λεωφορείων, είναι πλέον διαθέσιμη για τους χρήστες φορητών συσκευών (smartphones και tablets) με το όνομα “ ΠΑΤΡΑ Bus”.&nbsp</a><span class="badge badge-info"> NEO</span></p>
                     <p><a href="contact">Η νέα διεύθυνση των γραφείων του Αστικού ΚΤΕΛ Πατρών είναι Αγίου Ανδρέου 9.&nbsp</a><span class="blink_me badge badge-warning">ΣΗΜΑΝΤΙΚΟ!</span></p>
-                    <p class="text-right"><a href="#" role="button">Όλες οι Ανακοινώσεις &raquo;</a></p>
+                    <p class="text-right"><a href="/announcements" role="button">Όλες οι Ανακοινώσεις &raquo;</a></p>
                 </div>
             </div>
         <div class="col-md-8">
